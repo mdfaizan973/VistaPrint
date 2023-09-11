@@ -479,7 +479,31 @@ export default function Home() {
         </div>
       </div>
       {/* ~~~~~~~~~~~ */}
-      Hello
+      <div className="blog_knownl_containers">
+        <div className="blog_child">
+          <div className="img_of_blog">
+            <img src="https://cms.cloudinary.vpsvc.com/image/upload/c_scale,f_auto,q_auto,w_960/v1637316299/desktop-en-GB.png" />
+          </div>
+          <div className="contents_blogs">
+            <p className="text-4xl mt-5">Its good to be on the list.</p>
+            <p className="text-2xl mt-5">
+              Get 15% off your order when you sign up for our emails.
+            </p>
+            <input
+              className="mt-5 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="username"
+              type="text"
+              placeholder="Subscription email"
+            ></input>
+            <p className="mt-5">
+              Yes, Id like to receive special offer emails from VistaPrint, as
+              well as news about products, services and my designs in progress.
+              Read our Privacy and Cookie policy.
+            </p>
+            <button className="blogs-button mt-5">Submit</button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

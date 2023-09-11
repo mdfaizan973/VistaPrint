@@ -201,6 +201,62 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* -- */}
+        <div className="head-text">
+          <h1 className="head-textsp text-3xl font-semibold mb-4">
+            Custom wedding invites start at under $1 <span>See all </span>
+          </h1>
+        </div>
+        {/* ------ */}
+        <div className="pro_card_img grid grid-cols-4 gap-6">
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001649168/MXP23221-Aug-21-Homepage-Consumer-ProductTile-Invitation-001?cb=4366c8e7fa9e5222e90d88857d2c05f669e564cc" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Wedding Invitations</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001649145/MXP23221-Aug-21-Homepage-Consumer-ProductTile-Menus-001?cb=765187def7880bad5aa5d414a40c79505de2fada" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Menus</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001649148/MXP23221-Aug-21-Homepage-Consumer-ProductTile-FoamBoards-001?cb=17d5e1aa52131e0a9a6139a1f050433b49f7195e" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold"> Foam Boards</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001649178/MXP23221-Aug-21-Homepage-Consumer-ProductTile-Napkins-001?cb=1f4702c0e06fbb3a2dffcaab702bd3eae3e393d9" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Napkins</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

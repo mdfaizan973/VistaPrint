@@ -1,9 +1,9 @@
 // import React from 'react'
-
+import "./Styles/Footer.css";
 export default function Footer() {
   return (
     <div>
-      <footer className="bg-white">
+      <footer className="main_footer">
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>

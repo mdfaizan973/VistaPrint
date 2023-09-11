@@ -84,7 +84,7 @@ export default function Navnar() {
                 <span>
                   <LiaUserSolid />
                 </span>
-                Sign sin
+                Sign In
               </li>
               <li>
                 <span>
@@ -96,7 +96,6 @@ export default function Navnar() {
           </div>
         </div>
         {/* ---hover nav---- */}
-
         <div className="hover_Nav">
           <div className="dropdown">
             <button className="dropdown-button">Deals</button>
@@ -138,7 +137,7 @@ export default function Navnar() {
           </div>
           <div className="dropdown">
             <button className="dropdown-button">
-              Celebrations, Invitations & <br />
+              Celebrations, & <br />
               Stationery
             </button>
             <ul className="dropdown-menu">

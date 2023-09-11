@@ -1,0 +1,29 @@
+.home_main_container {
+  background-image: url(https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_1920/legacy_dam/en-us/S001649110/MXP23221-Aug-21-Homepage-HeroShort-Final-001?cb=d8aaac3c496f1d0af4410c0a3fb3c1061decf997);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  margin-top: 5px;
+  color: white;
+  padding: 20px;
+}
+.text_container {
+  width: 60%;
+  height: 100%;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.text_container p {
+  font-size: 1.2rem;
+}
+.button_home {
+  padding: 10px 35px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 70px;
+}
+.button_home:nth-child(1) {
+  background-color: white;
+  color: black;
+}

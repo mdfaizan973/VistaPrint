@@ -49,13 +49,14 @@ ul {
 }
 
 .dropdown-menu {
+  width: 100vb;
   position: absolute;
   top: 100%;
   left: 0;
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  opacity: 0; /* Initially hidden */
-  visibility: hidden; /* Initially hidden */
+  opacity: 0;
+  visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 1;
 }
@@ -107,4 +108,14 @@ ul {
 .nav_icons ul li span {
   font-size: 1.3rem;
   margin: 15px;
+}
+table {
+  width: 100%;
+  border: 1px solid;
+}
+.dropdown table td {
+  padding: 10px 20px;
+}
+.dropdown table td:hover {
+  text-decoration: underline;
 }

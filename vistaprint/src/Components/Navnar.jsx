@@ -842,22 +842,10 @@ export default function Navnar() {
                   <td>
                     <RouterLink to="/hovernav">Square</RouterLink>
                   </td>
-                  <td>
-                    <RouterLink to="/hovernav">Post Cards</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Kids Labels</RouterLink>
-                  </td>
                 </tr>
                 <tr>
                   <td>
                     <RouterLink to="/hovernav">BannersNEW</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Lois</RouterLink>
                   </td>
                   <td>
                     <RouterLink to="/hovernav">Griffin</RouterLink>
@@ -870,12 +858,6 @@ export default function Navnar() {
                   <td>
                     <RouterLink to="/hovernav">Pennant</RouterLink>
                   </td>
-                  <td>
-                    <RouterLink to="/hovernav">Fabric Banners</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Mesh Banners</RouterLink>
-                  </td>
                 </tr>
                 <tr>
                   <td>
@@ -883,10 +865,6 @@ export default function Navnar() {
                   </td>
                   <td>
                     <RouterLink to="/hovernav">Banners Pole</RouterLink>
-                  </td>
-                  <td></td>
-                  <td>
-                    <RouterLink to="/hovernav">Double-Sided</RouterLink>
                   </td>
                 </tr>
                 <tr>
@@ -911,66 +889,21 @@ export default function Navnar() {
                   <td>
                     <RouterLink to="/hovernav">shoes</RouterLink>
                   </td>
-                  <td>
-                    <RouterLink to="/hovernav">Rounded</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Square</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Post Cards</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Kids Labels</RouterLink>
-                  </td>
                 </tr>
                 <tr>
                   <td>
                     <RouterLink to="/hovernav">BannersNEW</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Lois</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <RouterLink to="/hovernav">Shop all Banners</RouterLink>
                   </td>
-                  <td>
-                    <RouterLink to="/hovernav">Pennant</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Fabric Banners</RouterLink>
-                  </td>
-                  <td>
-                    <RouterLink to="/hovernav">Mesh Banners</RouterLink>
-                  </td>
                 </tr>
                 <tr>
                   <td>
                     <RouterLink to="/hovernav">Banners</RouterLink>
                   </td>
-                  <td>
-                    <RouterLink to="/hovernav">Banners Pole</RouterLink>
-                  </td>
-                  <td></td>
-                  <td>
-                    <RouterLink to="/hovernav">Double-Sided</RouterLink>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <RouterLink to="/hovernav">Vinyl Banners</RouterLink>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
                 </tr>
               </table>
             </ul>

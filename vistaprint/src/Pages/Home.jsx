@@ -20,7 +20,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="products_img_container">
         <div className="head-text">
           <h1 className="head-textsp text-3xl font-semibold mb-4">
@@ -257,7 +256,230 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Let your tees do the talking */}
+        <div className="home_main_container2">
+          <div className="text_container2">
+            <h1 className="text-5xl font-semibold mb-4">
+              Let your tees do the talking
+            </h1>
+            <p className="text-white-700 mb-6">
+              Build your brand’s reputation with the help of these comfy,
+              stylish T-shirts.
+            </p>
+
+            <div className="flex space-x-4">
+              <button className="button_home">Shop T-shirts</button>
+            </div>
+          </div>
+        </div>
+        {/*  */}
+        <div className="head-text">
+          <h1 className="head-textsp text-3xl font-semibold mb-4">
+            Merch they’ll bring everywhere <span>See all </span>
+          </h1>
+        </div>
+        {/*  */}
+        <div className="pro_card_img grid grid-cols-4 gap-6">
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001594479/MXP17419-WPT-producttile-hoodies-001?cb=9b0ac5df62fbc80e7b8cccdf143b40a12e31bb00" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Clothing</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001649183/MXP-23221-Drawstring-Bag-Tile-001?cb=3416245ff0b1158e3b113b3fc1f1f5158c4c4a4b" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Bags</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001618326/MXP20904-Hats-ProductTile-002?cb=ef956b8a56b99852f85ba75c6c0dbd66adfd2381" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Hats</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001649120/MXP23221-Aug-21-Homepage-PPAG-ProductTile-Drinkware-001?cb=a51099ba607a4c17ee4461a48f907bb65014d910" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Drinkware</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+          </div>
+        </div>
+        {/* ---------- */}
+        <div className="head-text">
+          <h1 className="head-textsp text-3xl font-semibold mb-4">
+            Vista’s services: We’re here to help you stand out
+          </h1>
+        </div>
+        {/* ***** */}
+        <div className="pro_card_img grid grid-cols-4 gap-6">
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001566544/MXP12383-H2vistalogos-NVHP-servicetile-NA-001?cb=036ca088af6947c089b3a6c8f7441ba0d03ccf97" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">
+                Explore our logo design services
+              </h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+            <p className="content-text">
+              Check out the three ways we can make your logo one-of-a-kind.
+            </p>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001484629/MXP2579-Q2-Homepage-Service-Tile-VistaWix-001?cb=a012f31a4ba9e5cfda4211adb430bc5ce7e3a295" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Build a business website</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+            <p className="content-text">
+              Grow your business online with Wix’s world-class site builder and
+              tools.
+            </p>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001482290/MXP2579-Q2-Homepage-Service-Tile-VistaCreate-001?cb=8d3bbee1d7f4e1526b20b65cfe52a3a2c52cb854" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">
+                Make eye-catching social posts
+              </h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+            <p className="content-text">
+              Turn our collection of on-trend templates into custom social media
+              for your business.
+            </p>
+          </div>
+          {/*  */}
+          <div className="product_card">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001618915/MXP20013-NAJuneNVHP-servicetile-designservices-001?cb=db2706b1641fbe34dc4a907bdaa8da2787a7d97d" />
+            <div className="link_area">
+              <h2 className="text-1xl font-bold">Get product design help</h2>
+              <img
+                src="https://www.vistaprint.com/swan/v2/icons/arrow_right.b75db7a964c0e26c4d1da0075e0a7ad6.svg"
+                className="h-6 w-5"
+                alt="Arrow Right"
+              />
+            </div>
+            <p className="content-text">
+              Build your unique brand with the help of our trusted designers.
+            </p>
+          </div>
+        </div>
+        {/* ------- */}
+        <div className="head-text">
+          <h1 className="head-textsp text-3xl font-semibold mb-4">
+            Explore all categories
+          </h1>
+        </div>
+        {/* ****** */}
+        <div className="circule_images">
+          <div className="grid grid-cols-4 gap-6">
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001628459/MXP21851-JulyNVHP-categoryzone-producttile-RCBCs-001?cb=d42afb8f52decebf856a79b9067ae4eb7df95c34"
+              />
+              <h2 className="">Business Cards</h2>
+            </div>
+            {/* * */}
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001628467/MXP21851-JulyNVHP-categoryzone-producttile-packaging-001?cb=7d486009f1a60a798c561f2211d5a4d7ceaa00dc"
+              />
+              <h2 className="">Labels, Stickers &amp;Packaging</h2>
+            </div>
+            {/* * */}
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001629592/MXP21851-JulyNVHP-categoryzone-producttile-totebags-001?cb=74123c81b15ed01e7c87e71e19f04563dd0851da"
+              />
+              <h2 className="">Clothing &amp;Bags</h2>
+            </div>
+            {/* * */}
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001629589/MXP21851-JulyNVHP-categoryzone-producttile-signsandbanners-001?cb=273d489e5ac72ad174d03fd744b1a96e64c1b622"
+              />
+              <h2 className="">Signs &amp;Banners</h2>
+            </div>
+            {/* *------* */}
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001629584/MXP21851-JulyNVHP-categoryzone-producttile-homeandgifts-001?cb=93ddfb275799efa6a2d80acf0d18ff6ad7beab0e"
+              />
+              <h2 className="">Home &amp;Gifts</h2>
+            </div>
+            {/* * */}
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001629579/MXP21851-JulyNVHP-categoryzone-producttile-invitationsandstationary-001?cb=d70611e5eeb3547ad0f993c26b3b46db3f685274"
+              />
+              <h2 className="">Invitations &amp;Stationery</h2>
+            </div>
+            {/* * */}
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001628473/MXP21851-JulyNVHP-categoryzone-producttile-postcardsandprintadvertising-001?cb=b6b39759c9e99fac745cab2520ba6a5afca46c53"
+              />
+              <h2 className="">Postcards &amp;Print Advertising</h2>
+            </div>
+            {/* * */}
+            <div className="small-images-round">
+              <img
+                className="rounded-full"
+                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001628474/MXP21851-JulyNVHP-categoryzone-producttile-digitalmarketing-001?cb=7948621abe6e6d189a627276bef01bbe4a4a9ff6"
+              />
+              <h2 className="">Digital Marketing</h2>
+            </div>
+          </div>
+        </div>
       </div>
+      {/* ~~~~~~~~~~~ */}
+      Hello
     </>
   );
 }

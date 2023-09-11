@@ -52,3 +52,37 @@
   align-items: center;
   padding-top: 15px;
 }
+.home_main_container2 {
+  background-image: url(https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_1920/legacy_dam/en-us/S001649085/MXP23221-Aug-21-Homepage-Banner-Tshirt-Final-001?cb=1056cd54ce6e4e032b5d28d8bb5c7eddbd257ae5);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
+.text_container2 {
+  width: 50%;
+  height: 100%;
+  padding-left: 150px;
+  padding-top: 70px;
+}
+.text_container2 p {
+  font-size: 1.2rem;
+}
+.content-text {
+  font-size: 1.2rem;
+}
+.circule_images {
+  width: 80%;
+  margin: auto;
+}
+.small-images-round {
+  text-align: center;
+}
+.small-images-round h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 5px;
+}

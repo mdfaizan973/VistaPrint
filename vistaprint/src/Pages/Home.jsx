@@ -504,6 +504,51 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* ~~~~~~~~~~~ */}
+
+      <div className="VistaPrint-nine-five">
+        <div className="child-cotainer">
+          <h1 className="head-textsp text-4xl font-bold mb-4">
+            VistaPrint: Here for small business since 1995.
+          </h1>
+          <br />
+          <p className="">
+            For more than 20 years, VistaPrint has helped small business owners,
+            entrepreneurs and dreamers create custom designs and professional
+            marketing. Our online printing services are intended to help you
+            find custom products you need – business cards, promotional
+            marketing and more – to create a look you love.
+          </p>
+        </div>
+        <div className="child-cotainer">
+          <h1 className="head-textsp text-2xl font-semibold mb-4">
+            Easy Design
+          </h1>
+          <p className="">
+            Our online tools make the process as simple and clear as possible,
+            and we’re working to improve your experience all the time.
+          </p>
+
+          <h1 className="head-textsp text-2xl font-semibold mb-4">
+            Make It Match
+          </h1>
+          <p className="margin-top">
+            Our designs can be used across multiple printed products, which
+            makes it easier for you to create consistent, professional
+            marketing.
+          </p>
+
+          <h1 className="head-textsp text-2xl font-semibold mb-4">
+            Make It Match
+          </h1>
+          <p className="margin-top">
+            Our designs can be used across multiple printed products, which
+            makes it easier for you to create consistent, professional
+            marketing.
+          </p>
+        </div>
+      </div>
     </>
   );
 }

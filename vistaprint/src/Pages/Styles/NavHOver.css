@@ -99,3 +99,30 @@
 .mid_link ul li:hover::before {
   width: 100%;
 }
+.kind_cards_compo {
+  display: flex;
+  width: 95%;
+  margin: 70px auto;
+}
+.kind_cards_compo div {
+  width: 100%;
+  padding: 20px;
+}
+.kind_cards_compo .text_conatiner_kcc {
+}
+.listing_data {
+  width: 50%;
+  margin: 5px auto;
+}
+
+.list_ul li {
+  list-style-type: disc;
+  font-size: 1.1rem;
+}
+.main_list {
+  border: 1px solid red;
+}
+.paragraph {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}

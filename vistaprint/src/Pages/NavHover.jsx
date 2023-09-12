@@ -98,6 +98,56 @@ export default function NavHover() {
       </div>
 
       {/* -----------One-of-a-kind cards------------ */}
+
+      <div className="kind_cards_compo">
+        <div className="text_conatiner_kcc">
+          <h1 className="text-5xl font-semibold">
+            Make your next card look and feel just the way you want.
+          </h1>
+          <div className="listing_data">
+            <ull className="list_ul">
+              <li>11 paper stock options</li>
+              <li>Premium paper & special finish upgrades</li>
+              <li>Square, slim & rounded corner upgrades</li>
+              <li>Metallic foil & spot UV upgrades</li>
+              <li>
+                FSC® certified product: Made from responsibly forested materials
+              </li>
+            </ull>
+          </div>
+          {/* --mainlists */}
+          <h2 className="text-xl font-bold">One-of-a-kind cards</h2>
+          <p className="paragraph">
+            Your business is unique, and your business cards should be, too.
+            Whether you’re making first impressions, rewarding regulars with a
+            loyalty card or giving satisfied clients your contact info for next
+            time, we’re here to help you look and feel ready to impress. Create
+            a card that fits your business needs, personality and style.
+          </p>
+          {/*  */}
+          <h2 className="text-xl font-bold">Lots of options</h2>
+          <p className="paragraph">
+            From traditional papers to thicker, heavier stocks and
+            attention-grabbing special finishes, you’ve got a lot of great
+            choices for your cards. Paper options include linen, recycled matte,
+            kraft and even alternatives like hemp-blend or cotton. And not only
+            that, you can go with a square shape or rounded corners, too. For
+            more info, go to the “Options” section.
+          </p>
+          {/*  */}
+          <h2 className="text-xl font-bold">Easy to design</h2>
+          <p className="paragraph">
+            Our user-friendly design studio makes business card printing easier
+            than ever. You can upload your own complete design, or you can pick
+            from a wide range of templates, all tailored to specific industries,
+            themes and uses. From there, it’s quick and easy to add your own
+            text, logo, images and more.
+          </p>
+        </div>
+        <div className="img_container_kcc">
+          <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001539942/MXP3165-business-card-standard-overview-eu-001?cb=b16f661b79636f3ec3978b3b301c974c7e58b88b" />
+        </div>
+      </div>
     </div>
   );
 }

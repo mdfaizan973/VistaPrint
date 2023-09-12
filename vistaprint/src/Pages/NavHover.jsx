@@ -1,6 +1,31 @@
 // import React from 'react'
 import "./Styles/NavHOver.css";
 export default function NavHover() {
+  let arr = [
+    {
+      text: "Perfect",
+      comment: "Exactly what I asked for. Great service.",
+      star: 5,
+    },
+    {
+      text: "Not the best quality but does the job",
+      comment: "Not the best quality wise but does the job",
+      star: 4,
+    },
+    {
+      text: "Product is very good",
+      comment:
+        "I need help in make small self adhesive address labels for general use.",
+      star: 3,
+    },
+    { text: "Yes", comment: "Exactly what I wanted ….", star: 5 },
+    {
+      text: "Happy to reorder with Vista Print",
+      comment:
+        "The reproduction of the images & my chosen layout were really good",
+      star: 4,
+    },
+  ];
   return (
     <div className="main_container">
       <div className="blog_knownl_containers">
@@ -176,6 +201,35 @@ export default function NavHover() {
           <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001472708/MXP4661-EU-business-card-pearl-overview-001?cb=2cb46b5420add6f8a1c4233c11f48982b6179c26" />
           <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001550927/MXP10247-bc-quick-bc-t3-overview-001?cb=908765348d3abec8fa85f8da89c208799495c992" />
         </div>
+      </div>
+
+      {/*  */}
+      <div className="reward_head">
+        <h1 className="text-4xl font-semibold">Reviewed by 9420 customers</h1>
+      </div>
+      {arr.map((el) => (
+        <>
+          <div className="review">
+            <div className="stars">
+              <span className="star"></span>
+              <span className="star"></span>
+              <span className="star"></span>
+              <span className="star"></span>
+              <span className="star"></span>
+            </div>
+            <div className="rating">{el.star}</div>
+            <div className="text">{el.text}</div>
+            <div className="date">6 Sept 2023 | dawn</div>
+            <div className="comment">{el.comment}</div>
+          </div>
+        </>
+      ))}
+
+      <div className="Standard_business">
+        <h1 className="text-1xl">
+          Vistaprint offers Standard Business Cards design templates in assorted
+          styles.
+        </h1>
       </div>
     </div>
   );

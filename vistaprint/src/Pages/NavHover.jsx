@@ -148,6 +148,22 @@ export default function NavHover() {
           <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001539942/MXP3165-business-card-standard-overview-eu-001?cb=b16f661b79636f3ec3978b3b301c974c7e58b88b" />
         </div>
       </div>
+
+      {/* Images Area Start */}
+      <div className="img_ban_certified">
+        <div className="text_container">
+          <h1 className="text-5xl font-semibold">
+            95% of the paper we print on is FSC® certified.
+          </h1>
+          <p className="mt-5">
+            Sourced from responsibly managed forests, our paper products are
+            designed to <br /> help you reduce your environmental impact.
+          </p>
+          <p className="mt-5">Learn more</p>
+        </div>
+      </div>
+
+      {/* products */}
     </div>
   );
 }

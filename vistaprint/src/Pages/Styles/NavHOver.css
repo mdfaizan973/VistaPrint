@@ -126,3 +126,17 @@
   font-size: 1.1rem;
   margin-bottom: 15px;
 }
+.img_ban_certified {
+  background-image: url(https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,q_auto:good,w_1700/pdp-fsc-banner);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  width: 96%;
+  margin: auto;
+}
+.text_container {
+  width: 60%;
+  padding: 50px;
+  color: white;
+}

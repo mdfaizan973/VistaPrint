@@ -33,10 +33,12 @@ export default function Navnar() {
         {/* ---Search nav---- */}
         <div className="search_nav">
           <div className="web-logo">
-            <img
-              src="https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_b3fhwb3w/def_height/2700/def_width/2700/version/100012/type/1"
-              alt=""
-            />
+            <RouterLink to="/">
+              <img
+                src="https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_b3fhwb3w/def_height/2700/def_width/2700/version/100012/type/1"
+                alt=""
+              />
+            </RouterLink>
           </div>
           <div className="search_bar">
             <div className="p-4">
@@ -176,33 +178,37 @@ export default function Navnar() {
               <table>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">shoes</RouterLink>
+                    <RouterLink to="/hovernav"> Sheet Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Rounded</RouterLink>
+                    <RouterLink to="/hovernav">Sticker Singles</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Square</RouterLink>
+                    <RouterLink to="/hovernav">Circle Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Post Cards</RouterLink>
+                    <RouterLink to="/hovernav">Shop all Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Kids Labels</RouterLink>
+                    <RouterLink to="/hovernav">Reusable Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">BannersNEW</RouterLink>
+                    <RouterLink to="/hovernav">QR Code Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Temporary Tattoo Stickers
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Lois</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Die-Cut Sticker Singles
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">Holographic Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>
@@ -325,33 +331,37 @@ export default function Navnar() {
               <table>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">shoes</RouterLink>
+                    <RouterLink to="/hovernav"> Sheet Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Rounded</RouterLink>
+                    <RouterLink to="/hovernav">Sticker Singles</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Square</RouterLink>
+                    <RouterLink to="/hovernav">Circle Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Post Cards</RouterLink>
+                    <RouterLink to="/hovernav">Shop all Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Kids Labels</RouterLink>
+                    <RouterLink to="/hovernav">Reusable Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">BannersNEW</RouterLink>
+                    <RouterLink to="/hovernav">QR Code Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Temporary Tattoo Stickers
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Lois</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Die-Cut Sticker Singles
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">Holographic Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>
@@ -399,33 +409,37 @@ export default function Navnar() {
               <table>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">shoes</RouterLink>
+                    <RouterLink to="/hovernav"> Sheet Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Rounded</RouterLink>
+                    <RouterLink to="/hovernav">Sticker Singles</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Square</RouterLink>
+                    <RouterLink to="/hovernav">Circle Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Post Cards</RouterLink>
+                    <RouterLink to="/hovernav">Shop all Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Kids Labels</RouterLink>
+                    <RouterLink to="/hovernav">Reusable Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">BannersNEW</RouterLink>
+                    <RouterLink to="/hovernav">QR Code Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Temporary Tattoo Stickers
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Lois</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Die-Cut Sticker Singles
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">Holographic Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>
@@ -618,33 +632,37 @@ export default function Navnar() {
               <table>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">shoes</RouterLink>
+                    <RouterLink to="/hovernav"> Sheet Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Rounded</RouterLink>
+                    <RouterLink to="/hovernav">Sticker Singles</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Square</RouterLink>
+                    <RouterLink to="/hovernav">Circle Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Post Cards</RouterLink>
+                    <RouterLink to="/hovernav">Shop all Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Kids Labels</RouterLink>
+                    <RouterLink to="/hovernav">Reusable Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <RouterLink to="/hovernav">BannersNEW</RouterLink>
+                    <RouterLink to="/hovernav">QR Code Stickers</RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Temporary Tattoo Stickers
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Lois</RouterLink>
+                    <RouterLink to="/hovernav">
+                      Die-Cut Sticker Singles
+                    </RouterLink>
                   </td>
                   <td>
-                    <RouterLink to="/hovernav">Griffin</RouterLink>
+                    <RouterLink to="/hovernav">Holographic Stickers</RouterLink>
                   </td>
                 </tr>
                 <tr>

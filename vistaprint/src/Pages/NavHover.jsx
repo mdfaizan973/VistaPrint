@@ -1,5 +1,103 @@
 // import React from 'react'
-
+import "./Styles/NavHOver.css";
 export default function NavHover() {
-  return <div>NavHover</div>;
+  return (
+    <div className="main_container">
+      <div className="blog_knownl_containers">
+        <div className="blog_child">
+          <div className="img_of_blog">
+            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/legacy_dam/en-us/S001639085/NPIB6574-Marquees-refresh-Standard-BC-003?cb=6bd118c58ce8a63cbe820ab3078b62dd0e59a019" />
+          </div>
+          <div className="contents_blogs">
+            <div className="standard_business">
+              <div className="text-1xl font-semibold">
+                Standard Business Cards
+              </div>
+              <div>
+                <img src="https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,q_auto:best,w_256/page_icons/fsc-logo" />
+              </div>
+            </div>
+            <div className="p_of_hov">
+              <p>
+                The options you need to create the card you want. Easily browse
+                designs, papers, shapes and more. See details
+              </p>
+              {/* -- */}
+              <div className="mt-5 w-100">
+                <select
+                  id="select"
+                  name="select"
+                  className="w-full px-6 py-4 border rounded-lg shadow-sm focus:outline-none focus:ring focus:border-blue-300"
+                >
+                  <option value="option1">
+                    Quantity <span>250 ( $0.10 / unit )</span>
+                  </option>
+                  <option value="option2">
+                    Quantity <span>50 ( $0.26 / unit )</span>
+                  </option>
+                  <option value="option3">
+                    Quantity <span>100 ( $0.32 / unit )</span>
+                  </option>
+                  <option value="option2">
+                    Quantity <span>250 ( $0.16 / unit )</span>
+                  </option>
+                  <option value="option3">
+                    Quantity <span>70 ( $0.14 / unit )</span>
+                  </option>
+                </select>
+              </div>
+              {/* --- */}
+
+              <div className="mt-8">
+                <p>
+                  50 starting at $13.00 <br />
+                  Get it as soon as Sep 14th to 02451 <br />
+                  Pay in 4 interest-free payments on purchases of $30-$1,500.
+                  Learn moreLearn more
+                </p>
+              </div>
+
+              {/* ----- */}
+
+              <div className="mt-10 w-90">
+                <button className="w-full bg-black text-white  browser_btn">
+                  Browse designs <br />
+                  Choose one of our templates
+                  <span>
+                    <img src="https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,f_auto,w_auto/page_icons/browseDesignsIconPrimary" />
+                  </span>
+                </button>
+              </div>
+              <div className="mt-2 w-90">
+                <button className="w-full bg-white text-black  browser_btn">
+                  Upload design <br />
+                  Have a design? Upload and edit it
+                  <span>
+                    <img src="https://cms.cloudinary.vpsvc.com/image/upload/c_scale,co_rgb:000000,dpr_auto,e_colorize:100,f_auto,w_auto/page_icons/UploadIcon" />
+                  </span>
+                </button>
+              </div>
+              <div className="mt-4 text-center">
+                <p>100% satisfaction guaranteed</p>
+              </div>
+              {/* ---E--- */}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ---------------------- */}
+
+      <div className="mid_link">
+        <ul>
+          <li className="font-bold ">Overview</li>
+          <li className="font-bold">FAQ</li>
+          <li className="font-bold">Options</li>
+          <li className="font-bold">Specs & Templates</li>
+        </ul>
+      </div>
+
+      {/* -----------One-of-a-kind cards------------ */}
+    </div>
+  );
 }

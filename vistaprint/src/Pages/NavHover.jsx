@@ -164,6 +164,19 @@ export default function NavHover() {
       </div>
 
       {/* products */}
+
+      <div className="products_banner mt-20">
+        <div>
+          <h1 className="text-4xl font-semibold">Related products</h1>
+        </div>
+        <div className=" products_img grid grid-cols-5 gap-6 mt-10">
+          <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001539942/MXP3165-business-card-standard-overview-eu-001?cb=b16f661b79636f3ec3978b3b301c974c7e58b88b" />
+          <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001492516/MXP5020-bc-softtouch-eu-overview-001?cb=6acd02d7f3e231ac26af2a736153dd6ff0e11e87" />
+          <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/legacy_dam/en-us/S001639085/NPIB6574-Marquees-refresh-Standard-BC-003?cb=6bd118c58ce8a63cbe820ab3078b62dd0e59a019" />
+          <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001472708/MXP4661-EU-business-card-pearl-overview-001?cb=2cb46b5420add6f8a1c4233c11f48982b6179c26" />
+          <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:good,w_900/legacy_dam/en-gb/S001550927/MXP10247-bc-quick-bc-t3-overview-001?cb=908765348d3abec8fa85f8da89c208799495c992" />
+        </div>
+      </div>
     </div>
   );
 }

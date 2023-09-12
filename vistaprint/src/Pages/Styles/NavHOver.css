@@ -140,3 +140,16 @@
   padding: 50px;
   color: white;
 }
+.products_banner {
+  width: 95%;
+  margin: auto;
+}
+
+.products_banner div:nth-child(1) {
+  text-align: center;
+}
+.products_img img {
+  height: 280px;
+  width: 320px;
+  border-radius: 15px;
+}

@@ -23,7 +23,8 @@ export default function Home() {
       <div className="products_img_container">
         <div className="head-text">
           <h1 className="head-textsp text-3xl font-semibold mb-4">
-            Feeling professional? We print that. <span>See all </span>
+            VistaPrint Picks: Popular products. Unbeatable value..{" "}
+            <span>See all </span>
           </h1>
         </div>
         <div className="pro_card_img grid grid-cols-4 gap-6">

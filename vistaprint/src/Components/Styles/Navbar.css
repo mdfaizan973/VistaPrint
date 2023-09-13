@@ -104,10 +104,14 @@ ul {
   font-size: 0.9rem;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .nav_icons ul li span {
   font-size: 1.3rem;
   margin: 15px;
+}
+.nav_icons ul li:hover {
+  color: rgb(133, 132, 132);
 }
 table {
   width: 100%;
@@ -117,5 +121,5 @@ table {
   line-height: 1;
 }
 .dropdown table td:hover {
-  text-decoration: underline;
+  color: rgb(161, 160, 160);
 }
